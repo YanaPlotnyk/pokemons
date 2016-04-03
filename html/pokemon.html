@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>pokemon</title>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="../js/pokemon.js"></script>
+		<link rel="stylesheet" type="text/css" href="../css/pokemon.css">
+	</head>	
+
+	<body>
+		<h1>List of Pokemons</h1>
+        <img id='loading' src="../images/ajax-loader.gif"/>
+		<div id="left">
+			<div id="filter">Filter:</div>
+			<ul class="filter-list">
+				<li>
+					<input type="checkbox" value="1" class="filter-checkbox" />
+					<div class="default-type normal-type">normal</div>
+				</li>
+				<li>
+					<input type="checkbox" value="2" class="filter-checkbox"/>
+					<div class="default-type fighting-type">fighting</div>
+				</li>
+				<li>
+					<input type="checkbox" value="3" class="filter-checkbox"/>
+					<div class="default-type flying-type">flying</div>
+				</li>
+				<li>
+					<input type="checkbox" value="4" class="filter-checkbox"/>
+					<div class="default-type poison-type">poison</div>
+				</li>
+				<li>
+					<input type="checkbox" value="5" class="filter-checkbox"/>
+					<div class="default-type ground-type">ground</div>
+				</li>
+				<li>
+					<input type="checkbox" value="6" class="filter-checkbox"/>
+					<div class="default-type rock-type">rock</div>
+				</li>
+				<li>
+					<input type="checkbox" value="7" class="filter-checkbox"/>
+					<div class="default-type bug-type">bug</div>
+				</li>
+				<li>
+					<input type="checkbox" value="8" class="filter-checkbox"/>
+					<div class="default-type ghost-type">ghost</div>
+				</li>
+				<li>
+					<input type="checkbox" value="9" class="filter-checkbox"/>
+					<div class="default-type steel-type">steel</div>
+				</li>
+				<li>
+					<input type="checkbox" value="10" class="filter-checkbox"/>
+					<div class="default-type fire-type">fire</div>
+				</li>
+				<li>
+					<input type="checkbox" value="11" class="filter-checkbox"/>
+					<div class="default-type water-type">water</div>
+				</li>
+				<li>
+					<input type="checkbox" value="12" class="filter-checkbox"/>
+					<div class="default-type grass-type">grass</div>
+				</li>
+				<li>
+					<input type="checkbox" value="13" class="filter-checkbox"/>
+					<div class="default-type electric-type">electric</div>
+				</li>
+				<li>
+					<input type="checkbox" value="14" class="filter-checkbox"/>
+					<div class="default-type ice-type">ice</div>
+				</li>
+				<li>
+					<input type="checkbox" value="15" class="filter-checkbox"/>
+					<div class="default-type dragon-type">dragon</div>
+				</li>
+				<li>
+					<input type="checkbox" value="16" class="filter-checkbox"/>
+					<div class="default-type dark-type">dark</div>
+				</li>
+				<li>
+					<input type="checkbox" value="17" class="filter-checkbox"/>
+					<div class="default-type fairy-type">fairy</div>
+				</li>
+				<li>
+					<input type="checkbox" value="18" class="filter-checkbox"/>
+					<div class="default-type shadow-type">shadow</div>
+				</li>
+				<li>
+					<input type="checkbox" value="19" class="filter-checkbox"/>
+					<div class="default-type psychic-type">psychic</div>
+				</li>
+				<li>
+					<input type="checkbox" value="20" class="filter-checkbox"/>
+					<div class="default-type unknown-type">unknown</div>
+				</li>
+				<button id="clear_filter">Clear Filter</button>
+			</ul>
+		</div>
+		<div id="center">
+			<div id="all_pokemons"></div>
+			<div id="load-more"><button id="load-more">Load More</button></div>
+        </div>
+		<div id="right">
+		</div>		
+	</body>	
+</html>
