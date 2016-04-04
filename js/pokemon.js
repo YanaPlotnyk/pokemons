@@ -104,7 +104,7 @@ function appendPokemonsToPage(pokemons){
 			infoPokemon += "</div>";
 		}
 		infoPokemon += "</div>";
-		$("#all_pokemons").append(infoPokemon);
+		$("#all-pokemons").append(infoPokemon);
 	}
 }
 
@@ -288,7 +288,7 @@ $(document).ready(function(){
 
 	// Click event for button "Clear filter"
 	// to reset all filter options
-	$("#clear_filter").click(function(){
+	$("#clear-filter").click(function(){
 		$(".filter-checkbox").each(function(i, obj) {
 			$(this).prop('checked', false)
 		});
