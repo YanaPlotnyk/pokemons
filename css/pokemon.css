@@ -28,6 +28,12 @@ h1 {
 .filter-checkbox {
     float:left;
 }
+
+#clear-filter {
+	padding-left: 2px;
+	padding-right: 2px;
+}
+
 /*/left div*/
 
 /*center div*/
