@@ -1,13 +1,12 @@
-
 //------- Constants -------------------------------
+
 //Hostname of REST API server
 var HOST_NAME = "http://pokeapi.co";
 
-//TODO
+//Min length of string pokemon id presantation
 var MIN_ID_LENGTH = 3;
 
 //------- Global variables-------------------------
-
 
 // URI for getting next pokemon records
 var nextRecordsURI;
